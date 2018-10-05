@@ -135,7 +135,7 @@ void loop(){
       
                      
             // Web Page
-            client.println("</head><body><h1>ESP32 with Servo</h1>");
+            client.println("</head><body><h1>식물 관리 서버</h1>");
             client.println("<p>RED : <span id=\"servoPos\"></span></p>");          
             client.println("<input type=\"range\" min=\"0\" max=\"255\" class=\"slider\" id=\"servoSlider\" onchange=\"servo(this.value)\" value=\""+valueString+"\"/>");
             client.println("<p>GREEN: <span id=\"servoPos1\"></span></p>");          
